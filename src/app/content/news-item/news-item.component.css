@@ -1,0 +1,41 @@
+.News_Item{
+  display: flex;
+  padding: 42px 0 36px 0;
+  border-top: 1px solid #F6F6F7;
+  width: 854px;
+}
+h2{
+  margin: 0 0 18px 0;
+  padding: 0;
+
+}
+a {
+  text-decoration: none;
+  color: #3B444F;
+  font-family: "Helvetica Neue";
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.Date{
+  color: #CBCCCF;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+.description{
+  color: #3B444F;
+  font-family: "Helvetica Neue";
+  font-size: 18px;
+  line-height: 32px;
+}
+.text{
+  padding-right: 70px;
+}
+a img {
+width: 110px;
+}

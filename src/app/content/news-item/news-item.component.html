@@ -1,0 +1,10 @@
+<div class="News_Item">
+  <div class="text">
+    <p class="Date">{{newsModel.date | date: 'MMMM d y'}}</p>
+    <h2><a href="{{newsModel.newsLink}}">{{newsModel.title}}</a></h2>
+    <p class="description">{{newsModel.description}}</p>
+  </div>
+  <a class="news_photo" href="{{newsModel.newsLink}}">
+    <img [src]='newsModel.imageUrl'/>
+  </a>
+</div>
